@@ -1,0 +1,73 @@
+<Machine>
+	<sNome>Torno</sNome>
+	<sEnderecoIP>SQO-053.energpower.com.br</sEnderecoIP>
+	<sPorta>4840</sPorta>
+	<sUser>abcd</sUser>
+	<sPassword>1234</sPassword>
+	<Grupos>
+		<Grupo>
+			<sNomeGrupo>Saida Analogica</sNomeGrupo>
+			<Sinais>
+				<Sinal>
+					<sTipo>SaidaAnalogica</sTipo>
+					<sNomeSinal>Mensagem</sNomeSinal>
+					<sEndereco>ns=3;i=1018</sEndereco>
+				</Sinal>
+			</Sinais>
+		</Grupo>
+		<Grupo>
+			<sNomeGrupo>Saida Digital</sNomeGrupo>
+			<Sinais>
+				<Sinal>
+					<sTipo>SaidaDigital</sTipo>
+					<sNomeSinal>Ciclo</sNomeSinal>
+					<sEndereco>ns=3;i=1015</sEndereco>
+				</Sinal>
+				<Sinal>
+					<sTipo>SaidaDigital</sTipo>
+					<sNomeSinal>Parada</sNomeSinal>
+					<sEndereco>ns=3;i=1016</sEndereco>
+				</Sinal>
+			</Sinais>
+		</Grupo>
+		
+		<Grupo>
+			<sNomeGrupo>Gauge</sNomeGrupo>
+			<Sinais>
+				<Sinal>
+					<sTipo>EntradaGauge</sTipo>
+					<sNomeSinal>Tempo Ciclo</sNomeSinal>
+					<sEndereco>ns=3;i=1017</sEndereco>
+					<sUnidade>%</sUnidade>
+					<nMin>0</nMin>
+					<nMax>100</nMax>
+				</Sinal>
+			</Sinais>
+		</Grupo>
+		<Grupo>
+			<sNomeGrupo>Entrada Digital</sNomeGrupo>
+			<Sinais>
+				<Sinal>
+					<sTipo>EntradaDigital</sTipo>
+					<sNomeSinal>Ciclo</sNomeSinal>
+					<sEndereco>ns=3;i=1015</sEndereco>
+				</Sinal>
+				<Sinal>
+					<sTipo>EntradaDigital</sTipo>
+					<sNomeSinal>Parada</sNomeSinal>
+					<sEndereco>ns=3;i=1016</sEndereco>
+				</Sinal>
+			</Sinais>
+		</Grupo>
+		<Grupo>
+			<sNomeGrupo>Mensagem Dispositivo</sNomeGrupo>
+			<Sinais>
+				<Sinal>
+					<sTipo>EntradaString</sTipo>
+					<sNomeSinal>Mensagem</sNomeSinal>
+					<sEndereco>ns=3;i=1018</sEndereco>
+				</Sinal>
+			</Sinais>
+		</Grupo>
+	</Grupos>
+</Machine>

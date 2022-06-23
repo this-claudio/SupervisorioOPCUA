@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Supervisorio.ComponentesVisuais">
+    <Position X="11.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAABAAAAAAgKAAAAAIAAAAEJwAACIAAAAAEAA=</HashCode>
+      <FileName>UcMachineInfos\UcComponentesVisuais.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TiposComponentes" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Supervisorio.TiposComponentes">
+    <Position X="11.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAAAAAAAAAAAAAAAAAAAAEAUAAAAAAAAAAAAA=</HashCode>
+      <FileName>UcMachineInfos\UcComponentesVisuais.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Supervisorio.UcMachineInfos">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gSIkAAAAwCAAEACEAECUAAACQAAgQAgoAACj6QIAoRA=</HashCode>
+      <FileName>UcMachineInfos\UcMachineInfos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ComponentesVisuais" />
+      <Property Name="GrupoSinais" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Supervisorio.FormSupervisorio">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAKAiAAQAAAAADAAAgCAASAQAAABAQAAAAAAQA=</HashCode>
+      <FileName>FormSupervisorio.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ModuloMaquina" />
+      <Property Name="ConfigGeralPersistence" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Supervisorio.ModuloMaquina">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <AssociationLine Name="UcMachineInfos" Type="Supervisorio.UcMachineInfos" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="0.938" />
+        <Point X="9.75" Y="0.938" />
+        <Point X="9.75" Y="1.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Machine" Type="Supervisorio.Model.Machine">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.238" Y="0.133" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAABAEBAAAAAAAAAAAgAAAoAAAAAAAAAA=</HashCode>
+      <FileName>FormSupervisorio.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="UcMachineInfos" />
+      <Property Name="GestorOPCUA" />
+      <Property Name="GrupoMaquinas" />
+      <Property Name="Machine" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Supervisorio.Program">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>FormSupervisorioInit.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FormSupervisorio" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UcMachineInfosModel.GrupoSinais">
+    <Position X="9" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAACAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UcMachineInfos\UcMachineInfosModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Supervisorio.Model.GrupoMaquinas">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Supervisorio.Model.Machine">
+    <Position X="6.75" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Supervisorio.Model.Grupo">
+    <Position X="6.75" Y="5.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Supervisorio.Model.Sinal">
+    <Position X="6.75" Y="7.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Supervisorio.OPC.GestorOPCUA">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Supervisorio.Persistencia.ConfigGeralPersistence">
+    <Position X="2.5" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

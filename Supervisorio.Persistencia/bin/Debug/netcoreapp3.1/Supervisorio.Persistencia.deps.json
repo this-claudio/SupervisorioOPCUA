@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Supervisorio.Persistencia/1.0.0": {
+        "dependencies": {
+          "Supervisorio.Model": "1.0.0"
+        },
+        "runtime": {
+          "Supervisorio.Persistencia.dll": {}
+        }
+      },
+      "Supervisorio.Model/1.0.0": {
+        "runtime": {
+          "Supervisorio.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Supervisorio.Persistencia/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Supervisorio.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

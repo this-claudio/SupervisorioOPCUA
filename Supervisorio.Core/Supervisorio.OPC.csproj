@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Supervisorio.Model\Supervisorio.Model.csproj" />
+    <ProjectReference Include="..\Supervisorio.Persistencia\Supervisorio.Persistencia.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OpcUaClient">
+      <HintPath>..\..\OpcUaClient\OpcUaClient\bin\Debug\netcoreapp3.1\OpcUaClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

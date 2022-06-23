@@ -1,0 +1,17 @@
+C:\Users\silvacla\Google Drive\Aulas\2022-1\Redes Industriais de Comunicação\Prova 3 - Apresentação 30-05-22\Supervisorio\Supervisorio.Core\bin\Debug\netcoreapp3.1\GestorOPCUA.deps.json
+C:\Users\silvacla\Google Drive\Aulas\2022-1\Redes Industriais de Comunicação\Prova 3 - Apresentação 30-05-22\Supervisorio\Supervisorio.Core\bin\Debug\netcoreapp3.1\GestorOPCUA.dll
+C:\Users\silvacla\Google Drive\Aulas\2022-1\Redes Industriais de Comunicação\Prova 3 - Apresentação 30-05-22\Supervisorio\Supervisorio.Core\bin\Debug\netcoreapp3.1\GestorOPCUA.pdb
+C:\Users\silvacla\Google Drive\Aulas\2022-1\Redes Industriais de Comunicação\Prova 3 - Apresentação 30-05-22\Supervisorio\Supervisorio.Core\bin\Debug\netcoreapp3.1\OpcUaClient.dll
+C:\Users\silvacla\Google Drive\Aulas\2022-1\Redes Industriais de Comunicação\Prova 3 - Apresentação 30-05-22\Supervisorio\Supervisorio.Core\bin\Debug\netcoreapp3.1\Supervisorio.Model.dll
+C:\Users\silvacla\Google Drive\Aulas\2022-1\Redes Industriais de Comunicação\Prova 3 - Apresentação 30-05-22\Supervisorio\Supervisorio.Core\bin\Debug\netcoreapp3.1\Supervisorio.Persistencia.dll
+C:\Users\silvacla\Google Drive\Aulas\2022-1\Redes Industriais de Comunicação\Prova 3 - Apresentação 30-05-22\Supervisorio\Supervisorio.Core\bin\Debug\netcoreapp3.1\Supervisorio.Model.pdb
+C:\Users\silvacla\Google Drive\Aulas\2022-1\Redes Industriais de Comunicação\Prova 3 - Apresentação 30-05-22\Supervisorio\Supervisorio.Core\bin\Debug\netcoreapp3.1\Supervisorio.Persistencia.pdb
+C:\Users\silvacla\Google Drive\Aulas\2022-1\Redes Industriais de Comunicação\Prova 3 - Apresentação 30-05-22\Supervisorio\Supervisorio.Core\bin\Debug\netcoreapp3.1\OpcUaClient.pdb
+C:\Users\silvacla\Google Drive\Aulas\2022-1\Redes Industriais de Comunicação\Prova 3 - Apresentação 30-05-22\Supervisorio\Supervisorio.Core\obj\Debug\netcoreapp3.1\GestorOPCUA.csproj.AssemblyReference.cache
+C:\Users\silvacla\Google Drive\Aulas\2022-1\Redes Industriais de Comunicação\Prova 3 - Apresentação 30-05-22\Supervisorio\Supervisorio.Core\obj\Debug\netcoreapp3.1\GestorOPCUA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\silvacla\Google Drive\Aulas\2022-1\Redes Industriais de Comunicação\Prova 3 - Apresentação 30-05-22\Supervisorio\Supervisorio.Core\obj\Debug\netcoreapp3.1\GestorOPCUA.AssemblyInfoInputs.cache
+C:\Users\silvacla\Google Drive\Aulas\2022-1\Redes Industriais de Comunicação\Prova 3 - Apresentação 30-05-22\Supervisorio\Supervisorio.Core\obj\Debug\netcoreapp3.1\GestorOPCUA.AssemblyInfo.cs
+C:\Users\silvacla\Google Drive\Aulas\2022-1\Redes Industriais de Comunicação\Prova 3 - Apresentação 30-05-22\Supervisorio\Supervisorio.Core\obj\Debug\netcoreapp3.1\GestorOPCUA.csproj.CoreCompileInputs.cache
+C:\Users\silvacla\Google Drive\Aulas\2022-1\Redes Industriais de Comunicação\Prova 3 - Apresentação 30-05-22\Supervisorio\Supervisorio.Core\obj\Debug\netcoreapp3.1\GestorOPCUA.csproj.CopyComplete
+C:\Users\silvacla\Google Drive\Aulas\2022-1\Redes Industriais de Comunicação\Prova 3 - Apresentação 30-05-22\Supervisorio\Supervisorio.Core\obj\Debug\netcoreapp3.1\GestorOPCUA.dll
+C:\Users\silvacla\Google Drive\Aulas\2022-1\Redes Industriais de Comunicação\Prova 3 - Apresentação 30-05-22\Supervisorio\Supervisorio.Core\obj\Debug\netcoreapp3.1\GestorOPCUA.pdb

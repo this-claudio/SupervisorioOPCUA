@@ -1,0 +1,24 @@
+<GrupoMaquinas>	
+	<Machines>
+		<Machine>
+			<sNome></sNome>
+			<sEnderecoIP></sEnderecoIP>
+			<sPorta></sPorta>
+			<Grupos>
+				<Grupo>
+					<sNomeGrupo></sNomeGrupo>
+					<Sinais>
+						<Sinal>
+							<sTipo></sTipo>
+							<sNomeSinal></sNomeSinal>
+							<sEndereco></sEndereco>
+							<sUnidade></sUnidade>
+							<nMin></nMin>
+							<nMax></nMax>
+						</Sinal>
+					</Sinais>
+				</Grupo>
+			</Grupos>
+		</Machine>
+	</Machines>
+</GrupoMaquinas>	
