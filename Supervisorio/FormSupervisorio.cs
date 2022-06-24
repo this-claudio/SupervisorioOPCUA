@@ -9,7 +9,7 @@ using System.Drawing;
 
 namespace Supervisorio
 {
-    public partial class FormSupervisorio
+    public partial class FormSupervisorio : Form
     {
         GrupoMaquinas ParametrosMaquinas { get; set; }
         ConfigGeralPersistence Persistence { get; set; }

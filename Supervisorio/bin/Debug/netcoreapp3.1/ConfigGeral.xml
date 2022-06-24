@@ -15,6 +15,11 @@
 							<sNomeSinal>Mensagem</sNomeSinal>
 							<sEndereco>ns=3;i=1018</sEndereco>
 						</Sinal>
+						<Sinal>
+							<sTipo>SaidaAnalogica</sTipo>
+							<sNomeSinal>Programa Atual</sNomeSinal>
+							<sEndereco>ns=3;i=1019</sEndereco>
+						</Sinal>
 					</Sinais>
 				</Grupo>
 				<Grupo>
@@ -32,7 +37,6 @@
 						</Sinal>
 					</Sinais>
 				</Grupo>
-				
 				<Grupo>
 					<sNomeGrupo>Gauge</sNomeGrupo>
 					<Sinais>
@@ -68,6 +72,11 @@
 							<sTipo>EntradaString</sTipo>
 							<sNomeSinal>Mensagem</sNomeSinal>
 							<sEndereco>ns=3;i=1018</sEndereco>
+						</Sinal>
+						<Sinal>
+							<sTipo>EntradaString</sTipo>
+							<sNomeSinal>Programa Atual</sNomeSinal>
+							<sEndereco>ns=3;i=1019</sEndereco>
 						</Sinal>
 					</Sinais>
 				</Grupo>
