@@ -35,7 +35,6 @@ namespace Supervisorio
             this.SidePanel = new System.Windows.Forms.Panel();
             this.HeadPanel = new System.Windows.Forms.Panel();
             this.CenterPanel = new System.Windows.Forms.Panel();
-            this.SidePanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // SidePanel
@@ -46,7 +45,6 @@ namespace Supervisorio
             this.SidePanel.Name = "SidePanel";
             this.SidePanel.Size = new System.Drawing.Size(200, 461);
             this.SidePanel.TabIndex = 0;
-           
             // 
             // HeadPanel
             // 
@@ -55,7 +53,6 @@ namespace Supervisorio
             this.HeadPanel.Name = "HeadPanel";
             this.HeadPanel.Size = new System.Drawing.Size(200, 134);
             this.HeadPanel.TabIndex = 0;
-            this.HeadPanel.BackgroundImage = Image.FromFile("./Imagens/opc134.png");
             // 
             // CenterPanel
             // 
@@ -73,10 +70,10 @@ namespace Supervisorio
             this.ClientSize = new System.Drawing.Size(834, 461);
             this.Controls.Add(this.CenterPanel);
             this.Controls.Add(this.SidePanel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormSupervisorio";
             this.ShowIcon = false;
             this.Text = "Supervisorio";
-            this.SidePanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

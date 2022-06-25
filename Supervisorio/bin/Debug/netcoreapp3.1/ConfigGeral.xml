@@ -17,8 +17,8 @@
 						</Sinal>
 						<Sinal>
 							<sTipo>SaidaAnalogica</sTipo>
-							<sNomeSinal>Programa Atual</sNomeSinal>
-							<sEndereco>ns=3;i=1019</sEndereco>
+							<sNomeSinal>Comando</sNomeSinal>
+							<sEndereco>ns=3;i=1021</sEndereco>
 						</Sinal>
 					</Sinais>
 				</Grupo>
@@ -27,13 +27,8 @@
 					<Sinais>
 						<Sinal>
 							<sTipo>SaidaDigital</sTipo>
-							<sNomeSinal>Ciclo</sNomeSinal>
-							<sEndereco>ns=3;i=1015</sEndereco>
-						</Sinal>
-						<Sinal>
-							<sTipo>SaidaDigital</sTipo>
-							<sNomeSinal>Parada</sNomeSinal>
-							<sEndereco>ns=3;i=1016</sEndereco>
+							<sNomeSinal>Gatilho</sNomeSinal>
+							<sEndereco>ns=3;i=1020</sEndereco>
 						</Sinal>
 					</Sinais>
 				</Grupo>
@@ -42,7 +37,15 @@
 					<Sinais>
 						<Sinal>
 							<sTipo>EntradaGauge</sTipo>
-							<sNomeSinal>Tempo Ciclo</sNomeSinal>
+							<sNomeSinal>Processo</sNomeSinal>
+							<sEndereco>ns=3;i=1019</sEndereco>
+							<sUnidade>%</sUnidade>
+							<nMin>0</nMin>
+							<nMax>100</nMax>
+						</Sinal>
+						<Sinal>
+							<sTipo>EntradaGauge</sTipo>
+							<sNomeSinal>Cond. Ferramenta</sNomeSinal>
 							<sEndereco>ns=3;i=1017</sEndereco>
 							<sUnidade>%</sUnidade>
 							<nMin>0</nMin>
@@ -63,6 +66,11 @@
 							<sNomeSinal>Parada</sNomeSinal>
 							<sEndereco>ns=3;i=1016</sEndereco>
 						</Sinal>
+						<Sinal>
+							<sTipo>EntradaDigital</sTipo>
+							<sNomeSinal>Gatilho</sNomeSinal>
+							<sEndereco>ns=3;i=1020</sEndereco>
+						</Sinal>
 					</Sinais>
 				</Grupo>
 				<Grupo>
@@ -75,42 +83,8 @@
 						</Sinal>
 						<Sinal>
 							<sTipo>EntradaString</sTipo>
-							<sNomeSinal>Programa Atual</sNomeSinal>
-							<sEndereco>ns=3;i=1019</sEndereco>
-						</Sinal>
-					</Sinais>
-				</Grupo>
-			</Grupos>
-		</Machine>
-		<Machine>
-			<sNome>Fresa</sNome>
-			<sEnderecoIP>SQO-053.energpower.com.br</sEnderecoIP>
-			<sPorta>4840</sPorta>
-			<sUser>abcd</sUser>
-			<sPassword>1234</sPassword>
-			<Grupos>
-				<Grupo>
-					<sNomeGrupo>Entrada Digital</sNomeGrupo>
-					<Sinais>
-						<Sinal>
-							<sTipo>EntradaDigital</sTipo>
-							<sNomeSinal>Ciclo</sNomeSinal>
-							<sEndereco>ns=3;i=1015</sEndereco>
-						</Sinal>
-					</Sinais>
-				</Grupo>
-				<Grupo>
-					<sNomeGrupo>Saida Digital</sNomeGrupo>
-					<Sinais>
-						<Sinal>
-							<sTipo>SaidaDigital</sTipo>
-							<sNomeSinal>Ciclo</sNomeSinal>
-							<sEndereco>ns=3;i=1015</sEndereco>
-						</Sinal>
-						<Sinal>
-							<sTipo>SaidaDigital</sTipo>
-							<sNomeSinal>Parada</sNomeSinal>
-							<sEndereco>ns=3;i=1016</sEndereco>
+							<sNomeSinal>Comando</sNomeSinal>
+							<sEndereco>ns=3;i=1021</sEndereco>
 						</Sinal>
 					</Sinais>
 				</Grupo>

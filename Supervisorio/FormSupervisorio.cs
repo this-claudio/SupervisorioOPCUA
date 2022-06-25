@@ -56,6 +56,7 @@ namespace Supervisorio
                 MinhasMaquinas.Add(oMaquina);
             }
 
+            this.HeadPanel.BackgroundImage = Image.FromFile("./Imagens/opc134.png");
             this.SidePanel.Controls.Add(this.HeadPanel);
 
             StartTemplate();
