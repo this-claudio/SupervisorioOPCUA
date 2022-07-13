@@ -27,3 +27,38 @@ _ReSharper*/
 [Tt]est[Rr]esult*
 bin A
 .vs/
+
+# Ignore all
+*.obj
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+bin A
+.vs/
+Supervisorio/obj
+Supervisorio/bin
+Supervisorio.Core/obj
+Supervisorio.Core/bin
+Supervisorio.Model/obj
+Supervisorio.Model/bin
+Supervisorio.Persistencia/obj
+Supervisorio.Persistencia/bin

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zxrgh0rs5xpWFPQcUa+8PXBEIoyaq98FDfV8LojCTobBauOEBZXKGI+EfaaJzvdC/RPucN3XSZqgu5biWX4Wfg==",
+  "dgSpecHash": "QnDggeRs1COTD+zk8NEjE4oIAPTH3b8PJCXARY9bLjTWqBsf8I0ymQbx38Cyf3Xe///3WzcBkJJpLYYXPpTZcw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio\\Supervisorio.csproj",
+  "projectFilePath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio\\Supervisorio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\silvacla\\.nuget\\packages\\circularprogressbar\\2.8.0.16\\circularprogressbar.2.8.0.16.nupkg.sha512",
     "C:\\Users\\silvacla\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.23\\microsoft.extensions.logging.abstractions.3.1.23.nupkg.sha512",

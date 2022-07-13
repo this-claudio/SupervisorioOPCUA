@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Core\\Supervisorio.OPC.csproj": {}
+    "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Core\\Supervisorio.OPC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Core\\Supervisorio.OPC.csproj": {
+    "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Core\\Supervisorio.OPC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Core\\Supervisorio.OPC.csproj",
+        "projectUniqueName": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Core\\Supervisorio.OPC.csproj",
         "projectName": "Supervisorio.OPC",
-        "projectPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Core\\Supervisorio.OPC.csproj",
+        "projectPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Core\\Supervisorio.OPC.csproj",
         "packagesPath": "C:\\Users\\silvacla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Core\\obj\\",
+        "outputPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\silvacla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -32,11 +34,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Model\\Supervisorio.Model.csproj": {
-                "projectPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Model\\Supervisorio.Model.csproj"
+              "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Model\\Supervisorio.Model.csproj": {
+                "projectPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Model\\Supervisorio.Model.csproj"
               },
-              "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Persistencia\\Supervisorio.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Persistencia\\Supervisorio.Persistencia.csproj"
+              "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Persistencia\\Supervisorio.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Persistencia\\Supervisorio.Persistencia.csproj"
               }
             }
           }
@@ -69,22 +71,24 @@
         }
       }
     },
-    "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Model\\Supervisorio.Model.csproj": {
+    "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Model\\Supervisorio.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Model\\Supervisorio.Model.csproj",
+        "projectUniqueName": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Model\\Supervisorio.Model.csproj",
         "projectName": "Supervisorio.Model",
-        "projectPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Model\\Supervisorio.Model.csproj",
+        "projectPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Model\\Supervisorio.Model.csproj",
         "packagesPath": "C:\\Users\\silvacla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Model\\obj\\",
+        "outputPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\silvacla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -127,22 +131,24 @@
         }
       }
     },
-    "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Persistencia\\Supervisorio.Persistencia.csproj": {
+    "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Persistencia\\Supervisorio.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Persistencia\\Supervisorio.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Persistencia\\Supervisorio.Persistencia.csproj",
         "projectName": "Supervisorio.Persistencia",
-        "projectPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Persistencia\\Supervisorio.Persistencia.csproj",
+        "projectPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Persistencia\\Supervisorio.Persistencia.csproj",
         "packagesPath": "C:\\Users\\silvacla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\silvacla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -155,8 +161,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Model\\Supervisorio.Model.csproj": {
-                "projectPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Supervisorio\\Supervisorio.Model\\Supervisorio.Model.csproj"
+              "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Model\\Supervisorio.Model.csproj": {
+                "projectPath": "C:\\Users\\silvacla\\Google Drive\\Aulas\\2022-1\\Redes Industriais de Comunicação\\Prova 3 - Apresentação 30-05-22\\Codigo\\Supervisorio\\Supervisorio.Model\\Supervisorio.Model.csproj"
               }
             }
           }
