@@ -18,12 +18,22 @@ namespace Supervisorio.Model
         public string sEstadoConexao { get; set; }
 
         public List<Grupo> Grupos { get; set; }
+
+        public override string ToString()
+        {
+            return sNome.ToString();
+        }
     }
 
     public class Grupo
     {
         public string sNomeGrupo { get; set; }
         public List<Sinal> Sinais { get; set; }
+
+        public override string ToString()
+        {
+            return sNomeGrupo.ToString();
+        }
     }
 
     public class Sinal
@@ -36,6 +46,9 @@ namespace Supervisorio.Model
         public string sUnidade { get; set; }
         public object oValue { get; set; }
 
-
+        public override string ToString()
+        {
+            return sNomeSinal.ToString();
+        }
     }
 }

@@ -49,7 +49,7 @@ namespace Supervisorio
                 oMaquina.oMaquinaView = new UcMachineInfos();
                 oMaquina.oMaquinaView.ClickSaidaDigital += TratarClickPanel;
                 oMaquina.oMaquinaView.ClickEnviarSaidaAnalogica += TratarClickButton;
-                oMaquina.oMaquinaView.CreateMaquineScreen(ParametroMaquina.sNome, ParametroMaquina);
+                oMaquina.oMaquinaView.CreateMachineScreen(ParametroMaquina.sNome, ParametroMaquina);
                 oMaquina.oMaquinaView.Dock = DockStyle.Fill;
                 CreateButton(ParametroMaquina.sNome, oMaquina.oMaquinaView);
                 AddMachineView(oMaquina.oMaquinaView);

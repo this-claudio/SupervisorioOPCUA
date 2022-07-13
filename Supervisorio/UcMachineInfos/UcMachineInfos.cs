@@ -46,7 +46,7 @@ namespace Supervisorio
         /// </summary>
         /// <param name="sNome">Nome da máquina, será utilizado no titulo da tela</param>
         /// <param name="ParametrosMaquina">Todos os parametros da máquina</param>
-        public void CreateMaquineScreen(string sNome, Machine ParametrosMaquina)
+        public void CreateMachineScreen(string sNome, Machine ParametrosMaquina)
         {
             List<GrupoSinais> GruposVariaveis = new List<GrupoSinais>();
             
