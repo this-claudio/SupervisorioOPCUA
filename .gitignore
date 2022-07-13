@@ -54,8 +54,6 @@ _ReSharper*/
 [Tt]est[Rr]esult*
 bin A
 .vs/
-Supervisorio/obj
-Supervisorio/bin
 Supervisorio.Core/obj
 Supervisorio.Core/bin
 Supervisorio.Model/obj
