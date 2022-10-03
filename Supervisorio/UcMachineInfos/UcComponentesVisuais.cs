@@ -325,7 +325,7 @@ namespace Supervisorio
             return PainelString;
         }
 
-        public Panel CriarElementoSaidaAnalogica(string sNome, string sTag)
+        public Panel CriarElementoSaidaString(string sNome, string sTag)
         {
             Panel PainelSaidaString = new Panel();
             Panel PainelStatusString = new Panel();
@@ -341,7 +341,7 @@ namespace Supervisorio
             PainelSaidaString.Controls.Add(txtBox);
             PainelSaidaString.Location = new System.Drawing.Point(201, 167);
             PainelSaidaString.Name = sNome;
-            PainelSaidaString.Tag = new Sinal { sEndereco = sTag, sTipo = TiposComponentes.SaidaAnalogica };
+            PainelSaidaString.Tag = new Sinal { sEndereco = sTag, sTipo = TiposComponentes.SaidaString };
             PainelSaidaString.Size = new System.Drawing.Size(276, 49);
             PainelSaidaString.TabIndex = 14;
             // 
@@ -395,7 +395,7 @@ namespace Supervisorio
             oDados.Add(PainelStatusString);
             ButtonEnviar.Tag = new Sinal
             {
-                sTipo = TiposComponentes.SaidaAnalogica,
+                sTipo = TiposComponentes.SaidaString,
                 sEndereco = sTag
             };
 
@@ -404,6 +404,91 @@ namespace Supervisorio
             return PainelSaidaString;
         }
 
+        public Panel CriarElementoSaidaNumerica(string sNome, string sTag)
+        {
+            Panel PainelSaidaString = new Panel();
+            Panel PainelStatusString = new Panel();
+            TextBox txtBox = new TextBox();
+            Label txtTitle = new Label();
+            Button ButtonEnviar = new Button();
+            // 
+            // PanelSaidaAnalogica
+            // 
+            PainelSaidaString.Controls.Add(ButtonEnviar);
+            PainelSaidaString.Controls.Add(txtTitle);
+            PainelSaidaString.Controls.Add(PainelStatusString);
+            PainelSaidaString.Controls.Add(txtBox);
+            PainelSaidaString.Location = new System.Drawing.Point(201, 167);
+            PainelSaidaString.Name = sNome;
+            PainelSaidaString.Tag = new Sinal { sEndereco = sTag, sTipo = TiposComponentes.SaidaString };
+            PainelSaidaString.Size = new System.Drawing.Size(276, 49);
+            PainelSaidaString.TabIndex = 14;
+            // 
+            // txtTitleSaidaAnalogica
+            // 
+            txtTitle.AutoSize = true;
+            txtTitle.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            txtTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            txtTitle.Location = new System.Drawing.Point(0, 26);
+            txtTitle.Name = "txtTitleEntradaAnalogica";
+            txtTitle.Size = new System.Drawing.Size(42, 16);
+            txtTitle.TabIndex = 2;
+            txtTitle.Text = sNome;
+            // 
+            // PanelSaidaAnalogicaStatus
+            // 
+            PainelStatusString.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(92)))), ((int)(((byte)(87)))));
+            PainelStatusString.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            PainelStatusString.Location = new System.Drawing.Point(0, 0);
+            PainelStatusString.Name = "PanelEntradaAnalogicaStatus";
+            PainelStatusString.Size = new System.Drawing.Size(23, 23);
+            PainelStatusString.TabIndex = 1;
+            // 
+            // textBoxSaidaAnalogica
+            // 
+            txtBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(29)))), ((int)(((byte)(30)))));
+            txtBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            txtBox.Font = new System.Drawing.Font("Courier New", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            txtBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(199)))), ((int)(((byte)(140)))));
+            txtBox.Location = new System.Drawing.Point(23, 0);
+            txtBox.Name = "TextBox";
+            txtBox.PlaceholderText = "Digite um número...";
+            txtBox.Size = new System.Drawing.Size(170, 24);
+            txtBox.TabIndex = 0;
+            txtBox.KeyPress += TxtBox_KeyPress;
+            // 
+            // buttonSaidaAnalogica
+            //
+            ButtonEnviar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(92)))), ((int)(((byte)(87)))));
+            ButtonEnviar.FlatAppearance.BorderSize = 0;
+            ButtonEnviar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            ButtonEnviar.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            ButtonEnviar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            ButtonEnviar.Location = new System.Drawing.Point(199, 0);
+            ButtonEnviar.Name = "txtSaidaAnalogicaEnviar";
+            ButtonEnviar.Size = new System.Drawing.Size(75, 23);
+            ButtonEnviar.TabIndex = 0;
+            ButtonEnviar.Text = "Enviar";
+            ButtonEnviar.UseVisualStyleBackColor = false;
+            List<object> oDados = new List<object>();
+            oDados.Add(txtBox);
+            oDados.Add(PainelStatusString);
+            ButtonEnviar.Tag = new Sinal
+            {
+                sTipo = TiposComponentes.SaidaNumerica,
+                sEndereco = sTag
+            };
+
+            ButtonEnviar.MouseClick += EventoMouseClickButton;
+
+            return PainelSaidaString;
+        }
+
+        private void TxtBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            const char Delete = (char)8;
+            e.Handled = !Char.IsDigit(e.KeyChar) && e.KeyChar != Delete;
+        }
 
         private void EventoMouseClickPanel(object sender, MouseEventArgs e)
         {
@@ -439,6 +524,7 @@ namespace Supervisorio
         public const string SaidaDigital = "SaidaDigital";
         public const string EntradaGauge = "EntradaGauge";
         public const string EntradaString = "EntradaString";
-        public const string SaidaAnalogica = "SaidaAnalogica";
+        public const string SaidaString = "SaidaString";
+        public const string SaidaNumerica = "SaidaNumerica";
     }
 }

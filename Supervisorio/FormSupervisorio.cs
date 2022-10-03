@@ -174,8 +174,10 @@ namespace Supervisorio
                 string NomeMaquina = MachineScreen.Name;
                 var DadosMachinaImMemory = (ModuloMaquina)MinhasMaquinas.Find(x => x.oDadoMaquina.sNome == NomeMaquina);
 
-                DadosMachinaImMemory.MachineClientOPC.PublishValueUpdate(Info.sEndereco.ToString(), TextoInput.Text.ToString());
-
+                if(Info.sTipo == TiposComponentes.SaidaString)
+                    DadosMachinaImMemory.MachineClientOPC.PublishValueUpdate(Info.sEndereco.ToString(), TextoInput.Text.ToString());
+                else if(Info.sTipo == TiposComponentes.SaidaNumerica)
+                    DadosMachinaImMemory.MachineClientOPC.PublishValueUpdate(Info.sEndereco.ToString(), Convert.ToInt32(TextoInput.Text));
 
                 PanelStatus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(199)))), ((int)(((byte)(140)))));
                 PanelStatus.BackgroundImage = Image.FromFile("./Imagens/check23.png");

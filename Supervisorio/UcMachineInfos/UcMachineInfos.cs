@@ -80,9 +80,14 @@ namespace Supervisorio
                                 componenteVisual = CriadorComponentes.CriarComponenteEntradaString(Sinal.sNomeSinal, Sinal.sEndereco);
                                 break;
                             }
-                        case TiposComponentes.SaidaAnalogica:
+                        case TiposComponentes.SaidaString:
                             {
-                                componenteVisual = CriadorComponentes.CriarElementoSaidaAnalogica(Sinal.sNomeSinal, Sinal.sEndereco);
+                                componenteVisual = CriadorComponentes.CriarElementoSaidaString(Sinal.sNomeSinal, Sinal.sEndereco);
+                                break;
+                            }
+                        case TiposComponentes.SaidaNumerica:
+                            {
+                                componenteVisual = CriadorComponentes.CriarElementoSaidaNumerica(Sinal.sNomeSinal, Sinal.sEndereco);
                                 break;
                             }
                     }
@@ -190,6 +195,21 @@ namespace Supervisorio
                         break;
                     }
                 case TiposComponentes.EntradaString:
+                    {
+                        var Infos = (Sinal)PanelView.Tag;
+                        if (Infos.sTipo == Sinal.sTipo)
+                        {
+                            if (Sinal.oValue == null) break;
+                            Control[] txtValue = PanelView.Controls.Find("Value", true);
+                            if (txtValue != null && txtValue.Count() > 0)
+                            {
+                                txtValue[0].Text = Sinal.oValue.ToString();
+                            }
+                        }
+                        PanelView.Tag = Sinal;
+                        break;
+                    }
+                case TiposComponentes.SaidaNumerica:
                     {
                         var Infos = (Sinal)PanelView.Tag;
                         if (Infos.sTipo == Sinal.sTipo)
